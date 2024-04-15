@@ -13,7 +13,7 @@ ht-degree: 0%
 
 이 문서에서는 다음 사항을 다룹니다.
 
-* 기존 Adobe Exchange Partner 샌드박스 조직과 공유 AEP 샌드박스 간의 차이점.
+* 기존 Adobe Exchange 파트너 샌드박스 조직과 공유 AEP 샌드박스 간의 차이점.
 * AEP 공유 샌드박스에 대한 액세스 요청.
 * AEP 공유 샌드박스에 대한 이메일 초대를 받는 중입니다.
 * 에서 새 사용자 초대 [!DNL Admin Console].
@@ -26,7 +26,7 @@ AEP의 샌드박스 기술에 대한 일반적인 개요는 다음을 참조하�
 Exchange 파트너는 다양한 Adobe에 액세스할 수 있습니다 [!DNL Experience Cloud] 제품 (과 같은 비 AEP 제품 [!DNL Analytics], [!DNL Target], Platform 태그 등) 자체 Adobe을 통해 [!DNL Experience Cloud] 조직(비공유) 파트너는 자체 조직에 대한 시스템 관리자 액세스 권한을 부여받아 사용자 및 기타 권한을 관리합니다. Adobe [!DNL Experience Platform] (AEP)는 다른 Adobe 샌드박스와 다르게 처리됩니다. 주요 차이점은 다음과 같습니다.
 
 * AEP에 대한 액세스는 파트너 기본 Adobe을 통하지 않습니다. [!DNL Experience Cloud] 샌드박스 조직.
-* AEP에 대한 액세스는 공유 Adobe Exchange 조직을 통해 이루어집니다.
+* AEP에 대한 액세스는 공유 Adobe Exchange 조직을 통해 수행됩니다.
 * 다른 많은 Adobe Exchange 파트너 회사가 동일한 조직을 사용하여 AEP에 액세스하고 있습니다
    * AEP 샌드박스 기능을 통해 이 공유 조직 내의 데이터 및 활동을 다른 파트너가 보거나 수정할 수 없습니다. 각 파트너는 공유 조직 내의 다른 샌드박스에 액세스할 수 있습니다.
 * 이 공유 조직 내의 관리 권한은 매우 제한적입니다.

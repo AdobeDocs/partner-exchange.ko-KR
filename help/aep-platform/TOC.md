@@ -3,7 +3,7 @@ cloud: Experience Cloud
 product: experience cloud
 sub-product: partner exchange
 audience: partner
-user-guide-title: Adobe 교환 - 통합 안내서
+user-guide-title: Adobe Exchange - 통합 안내서
 user-guide-description: Adobe Exchange 통합 안내서
 source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
 workflow-type: tm+mt
@@ -13,7 +13,7 @@ ht-degree: 0%
 ---
 
 
-# Adobe 교환 - 통합 안내서 {#integration-guides}
+# Adobe Exchange - 통합 안내서 {#integration-guides}
 
 + [AEP 통합 사전 요구 사항: AEP 샌드박스 액세스 및 탐색](profile-ingestion/explore-sandbox.md)
 + 데이터 수집 및 프로필 액세스 {#profile-ingestion}
