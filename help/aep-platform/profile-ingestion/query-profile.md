@@ -11,11 +11,11 @@ ht-degree: 0%
 
 # 프로필 API를 사용하여 통합 프로필에 액세스
 
-Adobe [!DNL Experience Platform] 은 실시간으로 고객 프로필에 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr) 와 상호 작용할 수 있도록 설계되었습니다. 이 항목 보기 [튜토리얼](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html) 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법에 대한 정보.
+Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)를 참조하십시오.
 
 이 문서는 위에 연결된 자습서를 실질적으로 참조합니다.
 
-다음 [Postman 컬렉션](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman) 는 연결된 번호로 호출을 사용하여 문서 전체에서 참조됩니다. Postman 컬렉션 설치 및 사용에 대한 자세한 내용은 Github에서 확인할 수 있습니다 [추가 정보](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) 페이지를 가리키도록 업데이트하는 중입니다. 다음 샘플 데이터 세트도 있습니다. [충성도](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) 및 [프로필](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) 데이터.
+[Postman 컬렉션](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman)은(는) 연결된 번호별 호출을 사용하여 문서 전체에서 참조됩니다. Postman 컬렉션 설치 및 사용에 대한 자세한 내용은 Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) 페이지에서 확인할 수 있습니다. 또한 [충성도](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) 및 [프로필](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) 데이터의 샘플 데이터 세트가 있습니다.
 
 이 섹션의 경우 Postman 폴더 5: 프로필 조회, 5a: 실시간 조회 프로필 데이터 또는 5b: 실시간 조회 이벤트 데이터를 사용합니다.
 
@@ -23,17 +23,17 @@ Adobe [!DNL Experience Platform] 은 실시간으로 고객 프로필에 액세�
 
 다음 섹션은 Experience Platform 인증에 도움이 됩니다. API 경로, 헤더 정보 등에 대해 알아봅니다.
 
-### 인증 대상 [!DNL Platform]
+### [!DNL Platform] 인증
 
-다음을 참조하십시오 [이](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) 아래 호출을 수행하기 전에 인증 자습서를 참조하십시오.
+아래 호출을 수행하기 전에 [이](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) 인증 자습서를 참조하십시오.
 
 ### API 경로
 
-실시간 고객 프로필 API에 필요한 플랫폼 게이트웨이 URL은 다음과 같습니다. `https://platform.adobe.io/`
+실시간 고객 프로필 API에 필요한 플랫폼 게이트웨이 URL: `https://platform.adobe.io/`
 
-API의 기본 경로는 다음과 같습니다. `/data/core/ups/access/entities`
+API의 기본 경로는 `/data/core/ups/access/entities`입니다.
 
-전체 경로의 예는 다음과 같습니다. `https://platform.adobe.io/data/core/ups/access/entities`
+전체 경로의 예: `https://platform.adobe.io/data/core/ups/access/entities`
 
 ### 헤더 정보
 
@@ -45,11 +45,11 @@ API의 기본 경로는 다음과 같습니다. `/data/core/ups/access/entities`
 * x-sandbox-name - Adobe 통합 관리자에서 가져옴
 * Content-Type: application/json
 
-헤더에 대해 설명된 자세한 내용은 [튜토리얼](https://adobe.ly/2PTHuKv).
+헤더에 대해 설명된 자세한 내용은 [자습서](https://adobe.ly/2PTHuKv)를 참조하십시오.
 
 ## ID를 사용하여 실시간 고객 프로필에 액세스
 
-프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 다음에 나옵니다. [안내서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html).
+프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 [안내서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)를 따릅니다.
 
 ### ID를 사용하여 프로필 데이터 액세스
 
@@ -141,7 +141,8 @@ curl -X GET \
 
 API는 /access/entities 끝점에 대한 POST 요청을 사용하고 페이로드에 ID를 제공하여 ID 목록을 사용하여 프로필에 액세스합니다. 이러한 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
 
-요청: 다음 요청은 ID 목록으로 여러 고객의 이름과 이메일 주소를 검색합니다.
+요청:
+다음 요청은 ID 목록으로 여러 고객의 이름과 이메일 주소를 검색합니다.
 
 ```
 curl -X POST \
@@ -179,7 +180,8 @@ curl -X POST \
 }'
 ```
 
-응답: 성공적인 응답이 요청 본문에 지정된 엔티티의 요청된 필드를 반환합니다.
+응답:
+성공적인 응답은 요청 본문에 지정된 엔티티의 요청된 필드를 반환합니다.
 
 ```
 {
@@ -326,7 +328,8 @@ curl -X POST \
 
 시계열 이벤트는 /access/entities 끝점에 대한 GET 요청을 통해 연결된 프로필 엔티티의 ID에 의해 액세스됩니다. 이 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
 
-요청: 다음 요청은 ID별로 프로필 엔티티를 찾고 endUserID, 웹 및 채널 속성의 값을 검색합니다 **모든 항목** 엔티티와 연결된 시계열 이벤트.
+요청:
+다음 요청은 ID별로 프로필 엔터티를 찾고 엔터티와 연결된 모든**시계열 이벤트에 대한 속성 endUserID, 웹 및 채널**&#x200B;의 값을 검색합니다.
 
 ```
 curl -X GET \
@@ -460,5 +463,5 @@ curl -X GET \
 ## 참조 문서
 
 * [실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)
-* [프로필 API 튜토리얼을 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] Authentication 안내서](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
+* [프로필 API 자습서를 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] 인증 가이드](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)

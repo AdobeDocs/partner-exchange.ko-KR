@@ -16,16 +16,16 @@ ht-degree: 0%
 * 기존 Adobe Exchange 파트너 샌드박스 조직과 공유 AEP 샌드박스 간의 차이점.
 * AEP 공유 샌드박스에 대한 액세스 요청.
 * AEP 공유 샌드박스에 대한 이메일 초대를 받는 중입니다.
-* 에서 새 사용자 초대 [!DNL Admin Console].
+* [!DNL Admin Console]에서 새 사용자를 초대하는 중입니다.
 * AEP UI 탐색.
 
-AEP의 샌드박스 기술에 대한 일반적인 개요는 다음을 참조하십시오. [기사](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/home.html).
+AEP의 샌드박스 기술에 대한 일반적인 개요는 이 [문서](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)를 참조하십시오.
 
 ## 공유 AEP 샌드박스
 
-Exchange 파트너는 다양한 Adobe에 액세스할 수 있습니다 [!DNL Experience Cloud] 제품 (과 같은 비 AEP 제품 [!DNL Analytics], [!DNL Target], Platform 태그 등) 자체 Adobe을 통해 [!DNL Experience Cloud] 조직(비공유) 파트너는 자체 조직에 대한 시스템 관리자 액세스 권한을 부여받아 사용자 및 기타 권한을 관리합니다. Adobe [!DNL Experience Platform] (AEP)는 다른 Adobe 샌드박스와 다르게 처리됩니다. 주요 차이점은 다음과 같습니다.
+Exchange 파트너는 자체 Adobe [!DNL Experience Cloud] 조직(공유되지 않음)을 통해 다양한 Adobe [!DNL Experience Cloud] 제품(AEP가 아닌 제품, 예: [!DNL Analytics], [!DNL Target], Platform 태그 등)에 액세스할 수 있습니다. 파트너는 자체 조직에 대한 시스템 관리자 액세스 권한을 부여받아 사용자 및 기타 권한을 관리합니다. AEP(Adobe [!DNL Experience Platform])은 다른 Adobe 샌드박스와 다르게 처리됩니다. 주요 차이점은 다음과 같습니다.
 
-* AEP에 대한 액세스는 파트너 기본 Adobe을 통하지 않습니다. [!DNL Experience Cloud] 샌드박스 조직.
+* AEP에 대한 액세스는 파트너 기본 Adobe [!DNL Experience Cloud] 샌드박스 조직을 통하지 않습니다.
 * AEP에 대한 액세스는 공유 Adobe Exchange 조직을 통해 수행됩니다.
 * 다른 많은 Adobe Exchange 파트너 회사가 동일한 조직을 사용하여 AEP에 액세스하고 있습니다
    * AEP 샌드박스 기능을 통해 이 공유 조직 내의 데이터 및 활동을 다른 파트너가 보거나 수정할 수 없습니다. 각 파트너는 공유 조직 내의 다른 샌드박스에 액세스할 수 있습니다.
@@ -34,9 +34,9 @@ Exchange 파트너는 다양한 Adobe에 액세스할 수 있습니다 [!DNL Exp
 
 ## 공유 AEP 샌드박스에 대한 액세스 요청
 
-제출 [지원 요청](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) 다음 정보가 포함된 경우:
+다음 정보가 포함된 [지원 요청](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)을 제출합니다.
 
-* Email Address
+* 이메일 주소
 * 제목: AEP 샌드박스 요청
 * 제품: 일반 프로비저닝/샌드박스
 * 티켓 유형: 프로그램 지원 - Exchange 프로그램/프로비저닝 요청 질문
@@ -45,13 +45,13 @@ Exchange 파트너는 다양한 Adobe에 액세스할 수 있습니다 [!DNL Exp
 
 ## 이메일 초대 받기
 
-AEP 샌드박스를 요청한 기본 담당자는 Adobe을 &quot;시작&quot;하도록 초대하는 자동화된 이메일을 받게 됩니다 [!DNL Experience Platform]. 기본 담당자는 다음 섹션에서 다루는 일부 관리 권한도 갖게 됩니다.
+AEP 샌드박스를 요청한 기본 연락처는 Adobe [!DNL Experience Platform]을(를) 사용하여 &quot;시작&quot;하도록 초대하는 자동화된 전자 메일을 받게 됩니다. 기본 담당자는 다음 섹션에서 다루는 일부 관리 권한도 갖게 됩니다.
 
-이메일에서 &quot;시작하기&quot; 버튼을 선택하는 대신 로 직접 이동합니다. `https://platform.adobe.com.` 초대에서 이메일 주소와 연결된 Adobe ID으로 로그인하거나 Adobe ID과 연결되지 않은 경우 만드십시오.
+이메일에 있는 &quot;시작하기&quot; 단추를 선택하는 대신 직접 `https://platform.adobe.com.` 초대의 이메일 주소와 연결된 Adobe ID으로 로그인하거나 Adobe ID과 연결되어 있지 않은 경우 만드십시오.
 
 ## 추가 사용자 초대
 
-제출 [지원 요청](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new) 다음 정보가 포함된 경우:
+다음 정보가 포함된 [지원 요청](https://adobeexchangeec.zendesk.com/hc/en-us/requests/new)을 제출합니다.
 
 * 요청자 이메일 주소
 * 제목: AEP 샌드박스 - 관리자/사용자 추가
@@ -61,7 +61,7 @@ AEP 샌드박스를 요청한 기본 담당자는 Adobe을 &quot;시작&quot;하
 
 ## AEP UI 탐색
 
-AEP UI 보기 [소개 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html)
+AEP UI [소개 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html) 보기
 
 AEP UI 내에는 왼쪽 패널을 통해 탐색할 수 있는 12개의 기본 영역이 있습니다. 그러나 이 유형의 통합에 가장 중요한 섹션은 스키마, 데이터 세트 및 프로필입니다.
 
