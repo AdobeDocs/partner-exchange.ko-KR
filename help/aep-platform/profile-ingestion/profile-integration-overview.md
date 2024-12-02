@@ -1,5 +1,5 @@
 ---
-title: "[!DNL Platform] 프로필 수집 및 액세스 통합 안내서 개요"
+title: '[!DNL Platform] 프로필 수집 및 액세스 통합 안내서 개요'
 description: ' [!DNL Experience Platform] 프로필 수집 및 액세스 통합에 대해 알아봅니다.'
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
