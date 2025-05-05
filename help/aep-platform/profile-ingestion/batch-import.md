@@ -11,7 +11,7 @@ ht-degree: 0%
 
 # AEP로 배치 데이터 가져오기
 
-AEP는 플랫 파일(예: Parquet)의 프로필 데이터가 포함된 배치 파일을 수집하거나 [!UICONTROL Experience Data Model](XDM) 레지스트리의 알려진 스키마를 준수하는 데이터를 수집할 수 있습니다.
+AEP는 플랫 파일(예: Parquet)의 프로필 데이터가 포함된 배치 파일을 수집하거나 [!UICONTROL Experience Data Model] (XDM) 레지스트리의 알려진 스키마를 준수하는 데이터를 수집할 수 있습니다.
 
 AEP는 배치 파일을 사용하여 데이터를 수집할 수 있습니다. 허용되는 형식은 JSON, Parquet 및 CSV입니다.
 

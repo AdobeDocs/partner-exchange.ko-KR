@@ -28,7 +28,7 @@ Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이�
 
 ## 스트리밍 연결 만들기
 
-AEP로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model](XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 데이터를 AEP로 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
+AEP로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model] (XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 데이터를 AEP로 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
 
 API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
 
