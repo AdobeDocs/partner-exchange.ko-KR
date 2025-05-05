@@ -23,14 +23,14 @@ Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이�
 
 ## 전제 조건
 
-* [플랫폼에 인증](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).
+* [플랫폼에 인증](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html).
 * 위에 연결된 인증 자습서에서 필수 헤더에 대한 값을 수집합니다.
 
 ## 스트리밍 연결 만들기
 
 AEP로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model] (XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 데이터를 AEP로 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
 
-API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
+API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -73,7 +73,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3a: 프로필 데이터에 대한 실시간 가져오기.
 
-스트리밍 프로필 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html)에 설명되어 있습니다.
+스트리밍 프로필 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/streaming-record-data.html)에 설명되어 있습니다.
 
 단계:
 
@@ -87,7 +87,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3b: 프로필 데이터에 대한 실시간 가져오기.
 
-스트리밍 경험 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html)에 설명되어 있습니다.
+스트리밍 경험 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/streaming-time-series-data.html)에 설명되어 있습니다.
 
 단계:
 
