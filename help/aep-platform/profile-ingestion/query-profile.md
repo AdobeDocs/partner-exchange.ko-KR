@@ -2,16 +2,16 @@
 title: 통합 프로필 액세스
 description: API를 사용하여 통합 프로필에 액세스합니다.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
 workflow-type: tm+mt
-source-wordcount: '675'
+source-wordcount: '683'
 ht-degree: 0%
 
 ---
 
 # 프로필 API를 사용하여 통합 프로필에 액세스
 
-Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)를 참조하십시오.
+Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)를 참조하십시오.
 
 이 문서는 위에 연결된 자습서를 실질적으로 참조합니다.
 
@@ -25,7 +25,7 @@ Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액
 
 ### [!DNL Platform] 인증
 
-아래 호출을 수행하기 전에 [이](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html) 인증 자습서를 참조하십시오.
+아래 호출을 수행하기 전에 [이](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) 인증 자습서를 참조하십시오.
 
 ### API 경로
 
@@ -49,11 +49,11 @@ API의 기본 경로는 `/data/core/ups/access/entities`입니다.
 
 ## ID를 사용하여 실시간 고객 프로필에 액세스
 
-프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 [안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/entities.html)를 따릅니다.
+프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 [안내서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)를 따릅니다.
 
 ### ID를 사용하여 프로필 데이터 액세스
 
-API는 ID를 사용하여 프로필 정보에 액세스할 수 있도록 합니다. 이 작업은 매개 변수 및 엔티티 ID 네임스페이스 중 하나로서 엔티티 ID를 사용하여 /access/entities에 GET 요청을 함으로써 수행됩니다. 참고: 50개의 레코드를 반환하는 요청은 422 HTTP 상태와 &quot;관련 ID가 너무 많습니다&quot;라는 메시지만 전달하며 더 많은 매개 변수로 검색을 좁혀야 합니다.
+API는 ID를 사용하여 프로필 정보에 액세스할 수 있도록 합니다. 이 작업은 매개 변수 및 엔티티 ID 네임스페이스 중 하나로 엔티티 ID를 사용하는 /access/entities에 GET 요청을 통해 수행됩니다. 참고: 50개의 레코드를 반환하는 요청은 422 HTTP 상태와 &quot;관련 ID가 너무 많습니다&quot;라는 메시지만 전달하며 더 많은 매개 변수로 검색을 좁혀야 합니다.
 
 요청:
 
@@ -139,7 +139,7 @@ curl -X GET \
 
 ### ID 목록으로 프로필 액세스
 
-API는 /access/entities 끝점에 대한 POST 요청을 사용하고 페이로드에 ID를 제공하여 ID 목록을 사용하여 프로필에 액세스합니다. 이러한 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
+API는 /access/entities 끝점에 대한 POST 요청을 사용하고 페이로드에 ID를 제공하여 ID 목록을 사용하여 프로필에 액세스할 수 있도록 합니다. 이러한 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
 
 요청:
 다음 요청은 ID 목록으로 여러 고객의 이름과 이메일 주소를 검색합니다.
@@ -329,7 +329,7 @@ curl -X POST \
 시계열 이벤트는 /access/entities 끝점에 대한 GET 요청을 통해 연결된 프로필 엔티티의 ID에 의해 액세스됩니다. 이 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
 
 요청:
-다음 요청은 ID별로 프로필 엔터티를 찾고 엔터티와 연결된 모든&#x200B;**시계열 이벤트에 대한 속성 endUserID, 웹 및 채널**&#x200B;의 값을 검색합니다.
+다음 요청은 ID별로 프로필 엔터티를 찾고 엔터티와 연결된 모든**시계열 이벤트에 대한 속성 endUserID, 웹 및 채널**&#x200B;의 값을 검색합니다.
 
 ```
 curl -X GET \
@@ -393,7 +393,7 @@ curl -X GET \
 
 ### 프로필의 시계열 이벤트에 대한 페이지 매김
 
-시계열 이벤트를 검색할 때 결과에 페이지가 매겨집니다. 후속 결과 페이지가 있는 경우 응답의 _page.next 매개 변수에 ID가 포함됩니다. 또한 응답의 _links.next.href 매개 변수는 후속 페이지를 검색하기 위한 요청 URI를 제공합니다.
+시계열 이벤트를 검색할 때 결과에 페이지가 매겨집니다. 후속 결과 페이지가 있는 경우 응답의 &amp;lowbar;page.next 매개 변수에 ID가 포함됩니다. 또한 응답의 &amp;lowbar;links.next.href 매개 변수는 후속 페이지 검색을 위한 요청 URI를 제공합니다.
 
 요청:
 
@@ -411,7 +411,7 @@ curl -X GET \
 
 응답:
 
-성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예에서는 _page.next 및 _links.next.href의 빈 문자열 값으로 표시되는 대로 후속 결과 페이지가 없는 응답을 보여 줍니다.
+성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예는 &amp;lowbar;page.next 및 &amp;lowbar;links.next.href의 빈 문자열 값으로 표시되는 것과 같이 후속 결과 페이지가 없는 응답을 보여 줍니다.
 
 ```
 {
@@ -463,5 +463,5 @@ curl -X GET \
 ## 참조 문서
 
 * [실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)
-* [프로필 API 자습서를 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 인증 가이드](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html)
+* [프로필 API 자습서를 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] 인증 가이드](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
