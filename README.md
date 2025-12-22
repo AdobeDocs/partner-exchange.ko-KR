@@ -9,4 +9,4 @@ ht-degree: 0%
 
 이 리포지토리는 Git Corp에서 GitHub Enterprise Cloud로 마이그레이션되었습니다. 새 위치:
 
-<https://github.com/Adobe-Enterprise-Docs/partner-exchange.en>
+<https://github.com/Adobe-Enterprise-Docs/partner-exchange.ko-KR>
