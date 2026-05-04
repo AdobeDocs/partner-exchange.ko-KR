@@ -33,7 +33,7 @@ IVR(Interactive Voice Response) 시스템 및 콜 센터 관리 소프트웨어�
 
 ## 일반 리소스
 
-* AEP [제품 설명서](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html).
+* AEP [제품 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/landing/documentation/overview.html).
 * AEP [확장성](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## 질문 또는 피드백

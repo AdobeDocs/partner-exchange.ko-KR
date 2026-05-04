@@ -31,7 +31,7 @@ ht-degree: 1%
 * [!DNL Admin Console]에서 새 사용자를 초대하는 중입니다.
 * AEP UI 탐색.
 
-AEP의 샌드박스 기술에 대한 일반적인 개요는 이 [article](https://docs.adobe.com/content/help/en/experience-platform/sandbox/home.html)을(를) 참조하십시오.
+AEP의 샌드박스 기술에 대한 일반적인 개요는 이 [article](https://docs.adobe.com/content/help/ko-KR/experience-platform/sandbox/home.html)을(를) 참조하십시오.
 
 ## 공유 AEP 샌드박스
 
@@ -73,7 +73,7 @@ AEP 샌드박스를 요청한 기본 연락처는 Adobe [!DNL Experience Platfor
 
 ## AEP UI 탐색
 
-AEP UI [소개 비디오](https://docs.adobe.com/content/help/en/platform-learn/tutorials/intro-to-platform/interface-tour.html) 보기
+AEP UI [소개 비디오](https://docs.adobe.com/content/help/ko-KR/platform-learn/tutorials/intro-to-platform/interface-tour.html) 보기
 
 AEP UI 내에는 왼쪽 패널을 통해 탐색할 수 있는 12개의 기본 영역이 있습니다. 그러나 이 유형의 통합에 가장 중요한 섹션은 스키마, 데이터 세트 및 프로필입니다.
 

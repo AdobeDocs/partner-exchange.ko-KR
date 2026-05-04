@@ -16,7 +16,7 @@ ht-degree: 0%
 
 # 프로필 API를 사용하여 통합 프로필에 액세스
 
-Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)를 참조하십시오.
+Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)를 참조하십시오.
 
 이 문서는 위에 연결된 자습서를 실질적으로 참조합니다.
 
@@ -30,7 +30,7 @@ Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액
 
 ### [!DNL Platform] 인증
 
-아래 호출을 수행하기 전에 [이](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html) 인증 자습서를 참조하십시오.
+아래 호출을 수행하기 전에 [이](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html) 인증 자습서를 참조하십시오.
 
 ### API 경로
 
@@ -54,7 +54,7 @@ API의 기본 경로는 `/data/core/ups/access/entities`입니다.
 
 ## ID를 사용하여 실시간 고객 프로필에 액세스
 
-프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 [안내서](https://docs.adobe.com/content/help/en/experience-platform/profile/api/entities.html)를 따릅니다.
+프로필 API를 사용하면 GET 요청을 통해 ID를 사용하여 프로필에 액세스할 수 있습니다. 아래 섹션은 이 [안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/entities.html)를 따릅니다.
 
 ### ID를 사용하여 프로필 데이터 액세스
 
@@ -468,5 +468,5 @@ curl -X GET \
 ## 참조 문서
 
 * [실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)
-* [프로필 API 튜토리얼을 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/en/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 인증 안내서](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html)
+* [프로필 API 튜토리얼을 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] 인증 안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html)
