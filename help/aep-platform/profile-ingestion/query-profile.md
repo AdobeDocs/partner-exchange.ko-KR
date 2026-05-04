@@ -3,8 +3,10 @@ title: 통합 프로필 액세스
 description: API를 사용하여 통합 프로필에 액세스합니다.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
-product_v2: id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-topic_v2: id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
 source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
 source-wordcount: 797
@@ -332,7 +334,7 @@ curl -X POST \
 시계열 이벤트는 /access/entities 끝점에 대한 GET 요청을 통해 연결된 프로필 엔티티의 ID에 의해 액세스됩니다. 이 ID는 ID 값(entityId)과 ID 네임스페이스(entityIdNS)로 구성됩니다.
 
 요청:
-다음 요청은 ID별로 프로필 엔터티를 찾고 엔터티와 연결된 모든**시계열 이벤트에 대한 속성 endUserID, 웹 및 채널**&#x200B;의 값을 검색합니다.
+다음 요청은 ID별로 프로필 엔터티를 찾고 엔터티와 연결된 모든&#x200B;**시계열 이벤트에 대한 속성 endUserID, 웹 및 채널**&#x200B;의 값을 검색합니다.
 
 ```
 curl -X GET \
@@ -396,7 +398,7 @@ curl -X GET \
 
 ### 프로필의 시계열 이벤트에 대한 페이지 매김
 
-시계열 이벤트를 검색할 때 결과에 페이지가 매겨집니다. 후속 결과 페이지가 있는 경우 응답의 &amp;lowbar;page.next 매개 변수에 ID가 포함됩니다. 또한 응답의 &amp;lowbar;links.next.href 매개 변수는 후속 페이지 검색을 위한 요청 URI를 제공합니다.
+시계열 이벤트를 검색할 때 결과에 페이지가 매겨집니다. 후속 결과 페이지가 있는 경우 응답의 &lowbar;page.next 매개 변수에 ID가 포함됩니다. 또한 응답의 &lowbar;links.next.href 매개 변수는 후속 페이지 검색을 위한 요청 URI를 제공합니다.
 
 요청:
 
@@ -414,7 +416,7 @@ curl -X GET \
 
 응답:
 
-성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예에서는 &amp;lowbar;page.next 및 &amp;lowbar;links.next.href의 빈 문자열 값으로 표시되는 대로 후속 결과 페이지가 없는 응답을 보여 줍니다.
+성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예에서는 &lowbar;page.next 및 &lowbar;links.next.href의 빈 문자열 값으로 표시되는 대로 후속 결과 페이지가 없는 응답을 보여 줍니다.
 
 ```
 {
