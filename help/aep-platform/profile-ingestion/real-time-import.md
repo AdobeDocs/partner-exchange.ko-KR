@@ -1,23 +1,26 @@
 ---
 title: 실시간 가져오기
-description: 실시간으로 AEP로 데이터를 가져오는 방법을 알아봅니다.
+description: 실시간으로 AEP으로 데이터를 가져오는 방법을 알아봅니다.
 exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '465'
-ht-degree: 0%
+source-wordcount: 642
+ht-degree: 4%
 
 ---
 
-# AEP로 데이터 스트리밍
+# AEP에 데이터 스트리밍
 
-Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이벤트를 거의 실시간으로 스트리밍하고 사용할 수 있습니다. 스트리밍을 통해 AEP로 전송되는 모든 데이터는 데이터 레이크에서 유지됩니다. 데이터는 API를 통해 또는 Adobe Launch를 사용하여 기존 데이터 세트 또는 완전히 새로운 데이터 세트로 스트리밍할 수 있습니다.
+Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이벤트를 거의 실시간으로 스트리밍하고 사용할 수 있습니다. 스트리밍을 통해 AEP으로 전송되는 모든 데이터는 데이터 레이크에서 유지됩니다. 데이터는 API를 통해 또는 Adobe Launch를 사용하여 기존 데이터 세트 또는 완전히 새로운 데이터 세트로 스트리밍할 수 있습니다.
 
 이 문서에서는 다음 내용을 다룹니다.
 
 * XDM 개별 프로필로 스트리밍
 * XDM ExperienceEvent로 스트리밍
-* AEP를 사용하여 Launch 확장을 스트리밍합니다.
+* AEP을 사용하여 Launch 확장 스트리밍
 
 [Postman 컬렉션](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman)은(는) 연결된 번호별 호출을 사용하여 문서 전체에서 참조됩니다. Postman 컬렉션 설치 및 사용에 대한 자세한 내용은 Github [README](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/README.md) 페이지에서 확인할 수 있습니다. 또한 [충성도](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20events.json) 및 [프로필](https://github.com/Adobe-Marketing-Cloud/exchange-aep-profile-integration-postman/blob/master/AEP%20loyalty%20profiles.json) 데이터의 샘플 데이터 세트가 있습니다.
 
@@ -28,7 +31,7 @@ Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이�
 
 ## 스트리밍 연결 만들기
 
-AEP로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model] (XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 데이터를 AEP로 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
+AEP으로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model]&#x200B;(XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 AEP으로 데이터를 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
 
 API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
 
@@ -69,7 +72,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 향후 스트리밍 수집 호출을 위해 위의 응답에 제공된 ID를 저장해야 합니다(Postman 컬렉션은 이 ID를 CONNECTION_ID 환경 변수에 저장합니다).
 
-## AEP로 프로필 데이터 스트리밍
+## AEP에 프로필 데이터 스트리밍
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3a: 프로필 데이터에 대한 실시간 가져오기.
 
@@ -83,7 +86,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 1. 스트리밍 수집 API를 호출하여 XDM 개별 프로필 레코드 만들기
 1. 새로 생성된 프로필 검색
 
-## AEP로 경험 이벤트 스트리밍
+## AEP에 경험 이벤트 스트리밍
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3b: 프로필 데이터에 대한 실시간 가져오기.
 
@@ -97,9 +100,9 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 1. 스트리밍 수집 API를 호출하여 XDM ExperienceEvent를 만듭니다
 1. 새로 생성된 이벤트 검색
 
-## Experience Platform 태그를 사용하여 AEP로 스트리밍
+## Experience Platform 태그를 사용하여 AEP으로 스트리밍
 
-Adobe [!DNL Experience Platform] Launch 확장은 Launch를 통해 AEP로 스트리밍하는 방법을 제공합니다. 자세한 내용은 [이 안내서](https://docs.adobe.com/content/help/ko/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)를 참조하세요.
+Adobe [!DNL Experience Platform] Launch 확장은 Launch를 통해 AEP으로 스트리밍하는 방법을 제공합니다. 자세한 내용은 [이 안내서](https://docs.adobe.com/content/help/ko/launch/using/extensions-ref/adobe-extension/aep-extension/overview.html)를 참조하세요.
 
 ## 참조 문서
 

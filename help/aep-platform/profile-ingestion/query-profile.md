@@ -2,9 +2,14 @@
 title: 통합 프로필 액세스
 description: API를 사용하여 통합 프로필에 액세스합니다.
 exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
-source-git-commit: 0690a52c3be0981a626e49729e51cb1729816c87
+TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '683'
+source-wordcount: 797
 ht-degree: 0%
 
 ---
@@ -411,7 +416,7 @@ curl -X GET \
 
 응답:
 
-성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예는 &lowbar;page.next 및 &lowbar;links.next.href의 빈 문자열 값으로 표시되는 것과 같이 후속 결과 페이지가 없는 응답을 보여 줍니다.
+성공적인 응답은 다음 결과 페이지를 반환합니다. 이 예에서는 &lowbar;page.next 및 &lowbar;links.next.href의 빈 문자열 값으로 표시되는 대로 후속 결과 페이지가 없는 응답을 보여 줍니다.
 
 ```
 {
@@ -463,5 +468,5 @@ curl -X GET \
 ## 참조 문서
 
 * [실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)
-* [프로필 API 자습서를 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)
-* [[!DNL Experience Platform] 인증 가이드](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html)
+* [프로필 API 튜토리얼을 사용하여 실시간 고객 프로필 데이터에 액세스](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)
+* [[!DNL Experience Platform] 인증 안내서](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html)

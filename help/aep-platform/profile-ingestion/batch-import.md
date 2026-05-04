@@ -1,19 +1,24 @@
 ---
-title: AEP로 배치 데이터 가져오기
+title: AEP으로 배치 데이터 가져오기
 description: 배치 파일을 Experience Platform으로 가져오는 방법 알아보기
 exl-id: 50576b67-b3ba-498e-86f6-7e1986b76985
-source-git-commit: fe7519c35fb9155ce54cad85941c887f15881a38
+TQID: https://experienceleague.adobe.com/sJjuydUOIwlu4gv6qmokidQJVrYLN4--M8m3DTkcjf0
+product_v2:
+  - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+topic_v2:
+  - id: c1579802-ddd4-4214-8a91-97b2066abe11
+source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
 workflow-type: tm+mt
-source-wordcount: '461'
+source-wordcount: 646
 ht-degree: 0%
 
 ---
 
-# AEP로 배치 데이터 가져오기
+# AEP으로 배치 데이터 가져오기
 
-AEP는 플랫 파일(예: Parquet)의 프로필 데이터가 포함된 배치 파일을 수집하거나 [!UICONTROL Experience Data Model] (XDM) 레지스트리의 알려진 스키마를 준수하는 데이터를 수집할 수 있습니다.
+AEP은 플랫 파일(예: parquet)의 프로필 데이터가 포함된 배치 파일을 수집하거나 [!UICONTROL Experience Data Model]&#x200B;(XDM) 레지스트리의 알려진 스키마를 준수하는 데이터를 수집할 수 있습니다.
 
-AEP는 배치 파일을 사용하여 데이터를 수집할 수 있습니다. 허용되는 형식은 JSON, Parquet 및 CSV입니다.
+AEP은 배치 파일을 사용하여 데이터를 수집할 수 있습니다. 허용되는 형식은 JSON, Parquet 및 CSV입니다.
 
 이 문서에서는 다음 내용을 다룹니다.
 
@@ -44,7 +49,7 @@ AEP는 배치 파일을 사용하여 데이터를 수집할 수 있습니다. �
 
 ## 일괄 처리 만들기
 
-이 자습서에서는 JSON을 형식으로 사용합니다. 더 많은 형식 예제는 [개발자 안내서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)에서 확인할 수 있습니다.
+이 자습서에서는 JSON을 형식으로 사용합니다. 자세한 형식 예제는 [개발자 안내서에서 확인할 수 있습니다.](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 JSON을 입력 형식으로 사용하여 배치를 만듭니다(데이터 세트 ID를 포함하고 데이터가 데이터 세트에 연결된 XDM 스키마를 준수하는지 확인).
 
 ```json
@@ -237,5 +242,5 @@ curl GET "https://platform.adobe.io/data/foundation/catalog/batch/{BATCH_ID}" \
 * [일괄 처리 수집 개요](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/ingest_architectural_overview.md)
 * [일괄 처리 수집 개발자 안내서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_developer_guide.md)
 * [일괄 처리 수집 문제 해결 안내서](https://www.adobe.io/apis/experienceplatform/home/data-ingestion/data-ingestion-services.html#!api-specification/markdown/narrative/technical_overview/ingest_architectural_overview/batch_data_ingestion_troubleshooting_guide.md)
-* [데이터 수집 Postman 컬렉션](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
+* [데이터 수집 Postman 수집](https://github.com/adobe/experience-platform-postman-samples/blob/master/apis/experience-platform/Data%20Ingestion%20API.postman_collection.json)
 * [인증 자습서](https://www.adobe.io/apis/experienceplatform/home/tutorials/alltutorials.html#!api-specification/markdown/narrative/tutorials/authenticate_to_acp_tutorial/authenticate_to_acp_tutorial.md)
