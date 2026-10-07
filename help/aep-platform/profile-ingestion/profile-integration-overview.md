@@ -1,20 +1,21 @@
 ---
 title: '[!DNL Platform] 프로필 수집 및 액세스 통합 안내서 개요'
-description: ' [!DNL Experience Platform] 프로필 수집 및 액세스 통합에 대해 알아봅니다.'
+description: '[!DNL Experience Platform] 프로필 수집 및 액세스에 대한 통합에 대해 알아봅니다.'
 exl-id: a593511c-dd4c-4437-af73-f44d795cacb8
 TQID: https://experienceleague.adobe.com/whnqurJyM4QXl5ikRvez7hpKWRDuU4onzROsUk-WeSI
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: bce87dde-a4ab-44c9-8a18-ad66e4ddb377
+    internal-label: Customer experience
   - id: e1e0219c-f879-479f-8427-888ed2a6e9c2
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Insights
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 492
+source-wordcount: '493'
 ht-degree: 1%
-
 ---
-
 # 통합 안내서: [!DNL Experience Platform] 프로필 수집 및 액세스
 
 파트너는 이 통합 안내서를 사용하여 Adobe [!DNL Experience Platform]&#x200B;(AEP)에서 수신 및 송신 기능을 빌드하도록 지원해야 합니다. 일괄 처리 수집, 스트리밍 수집 및 통합 프로필 액세스(이그레스)를 위한 API가 있습니다.
@@ -33,7 +34,7 @@ IVR(Interactive Voice Response) 시스템 및 콜 센터 관리 소프트웨어�
 
 ## 일반 리소스
 
-* AEP [제품 설명서](https://docs.adobe.com/content/help/ko-KR/experience-platform/landing/documentation/overview.html).
+* AEP [제품 설명서](https://docs.adobe.com/content/help/en/experience-platform/landing/documentation/overview.html).
 * AEP [확장성](https://www.adobe.com/insights/experience-platform-api-extensibility.html).
 
 ## 질문 또는 피드백

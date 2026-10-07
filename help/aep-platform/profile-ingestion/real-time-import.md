@@ -5,13 +5,12 @@ exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: CX Enterprise
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 4%
-
 ---
-
 # AEP에 데이터 스트리밍
 
 Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이벤트를 거의 실시간으로 스트리밍하고 사용할 수 있습니다. 스트리밍을 통해 AEP으로 전송되는 모든 데이터는 데이터 레이크에서 유지됩니다. 데이터는 API를 통해 또는 Adobe Launch를 사용하여 기존 데이터 세트 또는 완전히 새로운 데이터 세트로 스트리밍할 수 있습니다.
@@ -26,14 +25,14 @@ Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이�
 
 ## 전제 조건
 
-* [플랫폼에 인증](https://docs.adobe.com/content/help/ko-KR/experience-platform/tutorials/authentication.html).
+* [플랫폼에 인증](https://docs.adobe.com/content/help/en/experience-platform/tutorials/authentication.html).
 * 위에 연결된 인증 자습서에서 필수 헤더에 대한 값을 수집합니다.
 
 ## 스트리밍 연결 만들기
 
 AEP으로 스트리밍하려면 먼저 스트리밍 연결을 만들어야 합니다. 스트리밍 연결에는 스트리밍 데이터 원본 및 [!DNL Experience Data Model]&#x200B;(XDM) 스키마에 속하는 레코드를 전송하는지 여부와 같은 특성이 포함되어 있습니다. 스트리밍 연결을 만들면 AEP으로 데이터를 스트리밍하는 데 사용하는 고유한 URL이 제공됩니다.
 
-API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
+API를 통해 스트리밍 연결을 만드는 방법에 대한 지침은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection.html)로, UI를 통해 스트리밍 연결을 만드는 방법은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/create-streaming-connection-ui.html)로 이동하십시오.
 
 ```json
 curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
@@ -76,7 +75,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3a: 프로필 데이터에 대한 실시간 가져오기.
 
-스트리밍 프로필 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/streaming-record-data.html)에 설명되어 있습니다.
+스트리밍 프로필 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-record-data.html)에 설명되어 있습니다.
 
 단계:
 
@@ -90,7 +89,7 @@ curl -X POST https://platform.adobe.io/data/foundation/flowservice/connections \
 
 이 섹션의 경우 Postman 호출 폴더를 사용하십시오. 3: 실시간 가져오기, 3b: 프로필 데이터에 대한 실시간 가져오기.
 
-스트리밍 경험 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/ko-KR/experience-platform/ingestion/tutorials/streaming-time-series-data.html)에 설명되어 있습니다.
+스트리밍 경험 데이터에 대한 응답이 포함된 자세한 JSON 요청은 [여기](https://docs.adobe.com/content/help/en/experience-platform/ingestion/tutorials/streaming-time-series-data.html)에 설명되어 있습니다.
 
 단계:
 
