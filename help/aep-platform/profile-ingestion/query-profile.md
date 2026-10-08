@@ -5,15 +5,15 @@ exl-id: c9d2fa2d-9ffe-4e66-996f-ad930bee22c6
 TQID: https://experienceleague.adobe.com/ECndsmKpnN3No-PYL0kq0lktWuDK4Z6lFb99i82dK7k
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
+    internal-label: CX Enterprise
 topic_v2:
   - id: fd2e3797-f2ea-4b36-a9af-52acf5e90513
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: Customer profiles
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 797
+source-wordcount: '797'
 ht-degree: 0%
-
 ---
-
 # 프로필 API를 사용하여 통합 프로필에 액세스
 
 Adobe [!DNL Experience Platform]은(는) 고객 프로필에 실시간으로 액세스할 수 있습니다. [[!DNL Experience Platform] 실시간 고객 프로필 API](https://adobe.ly/2TtDHWr)는 이러한 프로필과 상호 작용하도록 설계되었습니다. 프로필 API를 사용하여 실시간 고객 프로필 데이터에 액세스하는 방법은 이 [자습서](https://docs.adobe.com/content/help/ko-KR/experience-platform/profile/api/getting-started.html)를 참조하십시오.
@@ -58,7 +58,7 @@ API의 기본 경로는 `/data/core/ups/access/entities`입니다.
 
 ### ID를 사용하여 프로필 데이터 액세스
 
-API는 ID를 사용하여 프로필 정보에 액세스할 수 있도록 합니다. 이 작업은 매개 변수 및 엔티티 ID 네임스페이스 중 하나로 엔티티 ID를 사용하는 /access/entities에 GET 요청을 통해 수행됩니다. 참고: 50개의 레코드를 반환하는 요청은 422 HTTP 상태와 &quot;관련 ID가 너무 많습니다&quot;라는 메시지만 전달하며 더 많은 매개 변수로 검색을 좁혀야 합니다.
+API는 ID를 사용하여 프로필 정보에 액세스할 수 있도록 합니다. 이 작업은 엔티티 ID를 매개 변수 및 엔티티 ID 네임스페이스 중 하나로 사용하여 /access/entities에 대한 GET 요청을 통해 수행됩니다. 참고: 50개의 레코드를 반환하는 요청은 422 HTTP 상태와 &quot;관련 ID가 너무 많습니다&quot;라는 메시지만 전달하며 더 많은 매개 변수로 검색을 좁혀야 합니다.
 
 요청:
 

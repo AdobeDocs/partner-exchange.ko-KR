@@ -5,13 +5,12 @@ exl-id: 0b6215a9-1160-49ae-8aa5-302b47357200
 TQID: https://experienceleague.adobe.com/GvWcwNPjQdmdKSUkwvJ2EpoCKJHGvf5c1Kn4dwWRVi8
 product_v2:
   - id: d0a3eab4-7b10-4d96-a71e-6c0f8e7b7c87
-source-git-commit: 6698ae880d1ad13a9387cb1ba66b9ba152d1d407
+    internal-label: CX Enterprise
+source-git-commit: 3cfb1b99df78991b22d2a3fd0e3d3be822422acc
 workflow-type: tm+mt
-source-wordcount: 642
+source-wordcount: '642'
 ht-degree: 4%
-
 ---
-
 # AEP에 데이터 스트리밍
 
 Adobe [!DNL Experience Platform]을(를) 사용하면 프로필 및 경험 이벤트를 거의 실시간으로 스트리밍하고 사용할 수 있습니다. 스트리밍을 통해 AEP으로 전송되는 모든 데이터는 데이터 레이크에서 유지됩니다. 데이터는 API를 통해 또는 Adobe Launch를 사용하여 기존 데이터 세트 또는 완전히 새로운 데이터 세트로 스트리밍할 수 있습니다.
